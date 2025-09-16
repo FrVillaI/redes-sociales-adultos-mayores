@@ -1,0 +1,85 @@
+[
+  {
+    "app": "whatsapp",
+    "intent": "cambiar_foto_perfil",
+    "preguntas": [
+      "cambiar foto",
+      "editar foto de perfil",
+      "cambiar imagen de perfil",
+      "foto de perfil"
+    ],
+    "pasos": [
+      { "texto": "Abre la aplicación de WhatsApp.", "imagen": "whatsApp_icon.png" },
+      { "texto": "En la barra principal presiona los tres puntos, junto al ícono de la lupa.", "imagen": "tres_puntos.png" },
+      { "texto": "Selecciona la opción 'Ajustes'.", "imagen": "menu_ajustes.png" },
+      { "texto": "Toca sobre tu foto de perfil actual, ubicada en la parte superior.", "imagen": "menu_perfil.png" },
+      { "texto": "Presiona el ícono de la cámara en tu foto de perfil.", "imagen": "perfil.png" },
+      { "texto": "Elige una opción: tomar foto, seleccionar de galería o elegir un avatar.", "imagen": "seleccion_foto.png" },
+      { "texto": "Busca en tu galería la imagen que deseas poner y presiónala."},
+      { "texto": "Ajusta la imagen y presiona 'OK'.", "imagen": "ajutes_fotos.png" },
+      { "texto": "Tu foto de perfil ha sido actualizada."}
+    ]
+  },
+  {
+    "app": "whatsapp",
+    "intent": "enviar_mensaje",
+    "preguntas": [
+      "enviar mensaje",
+      "mandar whatsapp",
+      "mensaje nuevo"
+    ],
+    "pasos": [
+      { "texto": "Abre la aplicación de WhatsApp.", "imagen": "whatsapp1.png" },
+      { "texto": "Presiona el ícono de mensaje para iniciar un chat nuevo.", "imagen": "whatsapp2.png" },
+      { "texto": "Selecciona el contacto al que deseas enviar el mensaje.", "imagen": "whatsapp3.png" },
+      { "texto": "Escribe tu mensaje en la barra de texto.", "imagen": "whatsapp4.png" },
+      { "texto": "Presiona el botón de enviar en forma de flecha.", "imagen": "whatsapp5.png" }
+    ]
+  },
+  {
+    "app": "whatsapp",
+    "intent": "enviar_imagen",
+    "preguntas": [
+      "enviar foto",
+      "mandar imagen",
+      "compartir foto"
+    ],
+    "pasos": [
+      { "texto": "Abre la aplicación de WhatsApp.", "imagen": "whatsapp1.png" },
+      { "texto": "Ingresa al chat del contacto al que quieres enviar la foto.", "imagen": "whatsapp2.png" },
+      { "texto": "Presiona el ícono de clip en la barra de mensajes.", "imagen": "whatsapp3.png" },
+      { "texto": "Selecciona la opción 'Galería'.", "imagen": "whatsapp4.png" },
+      { "texto": "Elige la foto que deseas enviar y presiónala.", "imagen": "whatsapp5.png" },
+      { "texto": "Si deseas, escribe un comentario y presiona el botón de enviar.", "imagen": "whatsapp6.png" }
+    ]
+  },
+  {
+    "app": "whatsapp",
+    "intent": "enviar_emoji",
+    "preguntas": [
+      "enviar emoji",
+      "poner carita",
+      "usar emoticono"
+    ],
+    "pasos": [
+      { "texto": "Abre el chat en el que deseas enviar un emoji.", "imagen": "whatsapp1.png" },
+      { "texto": "En la barra de mensaje, presiona el ícono de la carita feliz.", "imagen": "whatsapp2.png" },
+      { "texto": "Selecciona el emoji que quieras y pulsa 'Enviar'.", "imagen": "whatsapp3.png" }
+    ]
+  },
+  {
+    "app": "whatsapp",
+    "intent": "enviar_sticker",
+    "preguntas": [
+      "enviar sticker",
+      "poner figurita",
+      "mandar pegatina"
+    ],
+    "pasos": [
+      { "texto": "Abre el chat en el que deseas enviar un sticker.", "imagen": "whatsapp1.png" },
+      { "texto": "Presiona el ícono de la carita feliz en la barra de mensaje.", "imagen": "whatsapp2.png" },
+      { "texto": "Selecciona la pestaña de stickers (ícono de hoja doblada).", "imagen": "whatsapp3.png" },
+      { "texto": "Elige el sticker que quieras y presiónalo para enviarlo.", "imagen": "whatsapp4.png" }
+    ]
+  }
+]
